@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import BgLogo from "../components/BgLogo";
 
 const Container = styled.div`
   width: 100vw;
@@ -7,6 +8,7 @@ const Container = styled.div`
 
 const Home = () => {
   return <Container>
+    <BgLogo />
     HomePage
   </Container>;
 }
